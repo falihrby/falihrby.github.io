@@ -1,0 +1,118 @@
+/* Untuk Tablet */
+/* @media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+} */
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+  * {
+    box-sizing: border-box;
+  }
+  .mySlides img {
+    width: 280px;
+    height: 100px;
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .berita-utama {
+    width: 100%;
+  }
+
+  .news-wrapper {
+    width: 100%;
+  }
+
+  .judul-berita-utama {
+    width: 100%;
+  }
+
+  .section-title1 {
+    width: 100%;
+  }
+
+  .rekomendasi {
+    float: left;
+    text-align: left;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    width: 600px;
+  }
+  .rekomberita {
+    float: left;
+
+    position: relative;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .section-title1 {
+    border-bottom: 5px solid #fff200;
+    float: right;
+    text-align: left;
+
+    font-size: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
